@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RealConnect – Startseite</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealConnect - Dein echtes Netzwerk</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>RealConnect</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Start</a></li>
-                <li><a href="feed.html">Feed</a></li>
-                <li><a href="profile.html">Profil</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1 class="logo">RealConnect</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Startseite</a></li>
+                    <li><a href="#">Feed</a></li>
+                    <li><a href="#">Profil</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section class="hero">
-            <h2>Verknüpfe dich mit echten Menschen aus dem echten Leben!</h2>
-            <p>RealConnect ist deine Plattform für echte soziale Verbindungen – ohne Reels, ohne Algorithmus, ohne Werbung.</p>
-            <div class="actions">
-                <a href="login.html" class="btn">Einloggen</a>
-                <a href="register.html" class="btn">Registrieren</a>
-                <a href="feed.html" class="btn ghost">Direkt zum Feed</a>
+            <div class="hero-content">
+                <h2>Willkommen bei RealConnect</h2>
+                <p>Dein Ort für echte Verbindungen – zurück zu den Wurzeln von Social Media. Ohne Reels, ohne Algorithmen, nur echte Menschen.</p>
+                <div class="hero-buttons">
+                    <button id="login-button">Login</button>
+                    <button id="register-button">Registrieren</button>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 RealConnect. Alle Rechte vorbehalten.</p>
+        <div class="container">
+            <p>© 2025 RealConnect. Alle Rechte vorbehalten.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
