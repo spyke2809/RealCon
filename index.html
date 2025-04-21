@@ -3,45 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RealConnect - Dein echtes Netzwerk</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RealConnect - Connect with real people!</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+    <!-- Header Section -->
     <header>
-        <div class="container">
-            <h1 class="logo">RealConnect</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Startseite</a></li>
-                    <li><a href="#">Feed</a></li>
-                    <li><a href="#">Profil</a></li>
-                    <li><a href="#">Login</a></li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <h1>RealConnect</h1>
         </div>
+        <nav>
+            <a href="#">Login</a> | 
+            <a href="#">Sign Up</a>
+        </nav>
     </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Verbinde dich mit echten Menschen aus dem echten Leben!</h2>
+        <p>Hier entsteht bald deine Plattform für echten Austausch. Bleib dran!</p>
+        <button>Erfahre mehr</button>
+    </section>
+
+    <!-- Main Content: Dummy Post -->
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Willkommen bei RealConnect</h2>
-                <p>Dein Ort für echte Verbindungen – zurück zu den Wurzeln von Social Media. Ohne Reels, ohne Algorithmen, nur echte Menschen.</p>
-                <div class="hero-buttons">
-                    <button id="login-button">Login</button>
-                    <button id="register-button">Registrieren</button>
+        <div class="post">
+            <div class="user-info">
+                <img src="https://via.placeholder.com/50" alt="User Image" class="user-img">
+                <div class="user-details">
+                    <p class="username">Max Mustermann</p>
+                    <p class="post-time">vor 2 Stunden</p>
                 </div>
             </div>
-        </section>
+            <div class="post-content">
+                <p>Willkommen bei RealConnect! Dies ist dein erster Beitrag auf der Plattform.</p>
+            </div>
+            <div class="post-footer">
+                <button class="like-btn">Gefällt mir</button>
+                <button class="comment-btn">Kommentieren</button>
+            </div>
+        </div>
     </main>
 
+    <!-- Footer Section -->
     <footer>
-        <div class="container">
-            <p>© 2025 RealConnect. Alle Rechte vorbehalten.</p>
-        </div>
+        <p>&copy; 2025 RealConnect. Alle Rechte vorbehalten.</p>
     </footer>
 
-    <script src="script.js"></script>
-
+    <script src="app.js"></script>
 </body>
 </html>
